@@ -14,8 +14,7 @@ const mongoose = require("mongoose");
 
 mongoose.connect("mongodb://127.0.0.1:27017/todolistDB");
 
-const itemsSchema = new mongoose.Schema({
-  // creating a new schema for list items
+const itemsSchema = new mongoose.Schema({  // creating a new schema for list items
   name: {
     type: String,
     required: [true, "need some value"],
@@ -24,8 +23,7 @@ const itemsSchema = new mongoose.Schema({
 
 const Item = new mongoose.model("Item", itemsSchema); //creating a new "item" model
 
-const listSchema = new mongoose.Schema({
-  // creating a new schema for lists
+const listSchema = new mongoose.Schema({ // creating a new schema for lists
   name: {
     type: String,
     required: [true, "need a name"],
@@ -35,8 +33,7 @@ const listSchema = new mongoose.Schema({
 
 const List = new mongoose.model("List", listSchema); //creating a new "list" model
 
-app.get("/", function (req, res) {
-  // on homepage
+app.get("/", function (req, res) {  // on homepage
   Item.find({}) // if there is empty collection in the DB, then create 3 default items in the list
     .then(function (foundItems) {
       if (foundItems.length === 0) {
@@ -91,14 +88,6 @@ app.get("/:listName", (req, res) => {
   }
 
   console.log(x);
-
-  /*   Item.find({})
-    .then(function (foundItems) {
-      res.render("list", { listTitle: listName, newListItems: foundItems });
-    })
-    .catch(function (err) {
-      console.log(err);
-    }); */
 });
 
 app.listen(3000, function () {
