@@ -46,7 +46,7 @@ const Item = new mongoose.model("Item", itemsSchema); //creating a new "item" mo
 
 //----------------------------------------------------------------
 app.get("/", function (req, res) {  // on homepage
-  Item.find({}) // if there is empty collection in the DB, then create 3 default items in the list
+  Item.find({}) // if there is empty collection in the DB, then create 3 default items in the vocabulary
     .then(function (foundItems) {
       if (foundItems.length === 0) {
         const wort1 = new Item({ name_de: "1. wort", name_cz: "1. slovo", note: "note", starred: false, learnt: false, date: new Date() }); // creating new instance (document) of the Item model - first TODO items
@@ -60,6 +60,24 @@ app.get("/", function (req, res) {  // on homepage
         res.redirect("/"); // after creating and saving default TODO items in DB redirecting to homepage... it will then get to the "else" statement below and render the default items
       } else {
         res.render("list", { listTitle: "Title", newListItems: foundItems });
+      }
+    })
+    .catch(function (err) {
+      console.log(err);
+    });
+  
+  Category.find({})
+    .then(function (foundCategories) {
+      if (foundCategories.length === 0) {
+        const category1 = new Category({ name: "1. category" });
+        const category2 = new Category({ name: "2. category" });
+        const category3 = new Category({ name: "3. category" });
+        
+        const defaultCategories = [category1, category2, category3];
+
+        Category.insertMany(defaultCategories);
+
+        res.redirect("/"); // after creating and saving default categories in DB redirecting to homepage... it will then get to the "else" statement below and render the default categories
       }
     })
     .catch(function (err) {
