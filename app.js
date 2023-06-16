@@ -10,38 +10,50 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 const mongoose = require("mongoose");
-//---------------
+const { boolean } = require("webidl-conversions");
+//----------------------------------------------------------------
 
-mongoose.connect("mongodb://127.0.0.1:27017/todolistDB");
+// connecting database, initializing mongoose schema and creating model
 
-const itemsSchema = new mongoose.Schema({  // creating a new schema for list items
-  name: {
-    type: String,
-    required: [true, "need some value"],
-  },
-});
+mongoose.connect("mongodb://127.0.0.1:27017/vocabulary");
 
-const Item = new mongoose.model("Item", itemsSchema); //creating a new "item" model
-
-const listSchema = new mongoose.Schema({ // creating a new schema for lists
+// CATEGORY SCHEMA
+const categorySchema = new mongoose.Schema({ // creating a new schema for categories
   name: {
     type: String,
     required: [true, "need a name"],
   },
-  items: [itemsSchema],
 });
+const Category = new mongoose.model("Category", categorySchema); //creating a new "category" model
 
-const List = new mongoose.model("List", listSchema); //creating a new "list" model
+// VOCABULARY SCHEMA
+const itemsSchema = new mongoose.Schema({  // creating a new schema for vocabulary items
+  name_de: {
+    type: String,
+    required: [true, "need some value"],
+  },
+  name_cz: {
+    type: String,
+    required: [true, "need some value"],
+  },
+  note: String,
+  starred: Boolean,
+  learnt: Boolean,
+  date: Date,
+  category: [categorySchema]
+});
+const Item = new mongoose.model("Item", itemsSchema); //creating a new "item" model
 
+//----------------------------------------------------------------
 app.get("/", function (req, res) {  // on homepage
   Item.find({}) // if there is empty collection in the DB, then create 3 default items in the list
     .then(function (foundItems) {
       if (foundItems.length === 0) {
-        const todo1 = new Item({ name: "4 todo item" }); // creating new instance (document) of the Item model - first TODO items
-        const todo2 = new Item({ name: "5 todo item" });
-        const todo3 = new Item({ name: "6 todo item" });
+        const wort1 = new Item({ name_de: "1. wort", name_cz: "1. slovo", note: "note", starred: false, learnt: false, date: new Date() }); // creating new instance (document) of the Item model - first TODO items
+        const wort2 = new Item({ name_de: "2. wort", name_cz: "2. slovo", note: "note", starred: false, learnt: false, date: new Date() }); 
+        const wort3 = new Item({ name_de: "3. wort", name_cz: "3. slovo", note: "note", starred: false, learnt: false, date: new Date() });
 
-        const defaultItems = [todo1, todo2, todo3]; // setting default items
+        const defaultItems = [wort1, wort2, wort3]; // setting default items
 
         Item.insertMany(defaultItems); // inserting the default items from array to DB
 
@@ -74,7 +86,7 @@ app.post("/delete", (req, res) => {
   res.redirect("/");
 });
 
-app.get("/:listName", (req, res) => {
+/* app.get("/:listName", (req, res) => {
   const listName = req.params.listName;
 
   const x = List.findOne({ name: listName });
@@ -88,7 +100,7 @@ app.get("/:listName", (req, res) => {
   }
 
   console.log(x);
-});
+}); */
 
 app.listen(3000, function () {
   console.log("Server started on port 3000");
