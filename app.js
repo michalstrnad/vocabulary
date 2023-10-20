@@ -77,7 +77,7 @@ app.get("/", function (req, res) {  // on homepage
 
         res.redirect("/"); // after creating and saving default categories in DB redirecting to homepage... it will then get to the "else" statement below and render the default categories
       }
-      res.render("list", {categories: foundCategories });
+      //res.render("list", {categories: foundCategories });
     })
     .catch(function (err) {
       console.log(err);

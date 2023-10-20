@@ -7,14 +7,20 @@
   <div class="box" id="new-item-box">
     <form class="item_add" action="/" method="post">
       <div class="item_add_inputs">
-        <input type="text" name="word_de" placeholder="German word/phrase" autocomplete="off">
-        <input type="text" name="word_cz" placeholder="Czech translation" autocomplete="off">
+        <div>
+          <label for="word_de">German word/phrase</label>
+          <input type="text" name="word_de" autocomplete="off" autofocus>
+        </div>
+        <div>
+          <label for="word_cz">Czech word/phrase</label>
+          <input type="text" name="word_cz" autocomplete="off">
+        </div>
         <select class="item_add_category" name="category">
-          <option value="german">German</option>
-          <option value="czech">Czech</option>
-          <option value="english">English</option>
+          <option value="other" default>other</option>
+          <option value="food">Food</option>
+          <option value="clothing">Clothing</option>
         </select>
-        <textarea class="item_add_note" name="note" placeholder="notes"></textarea>
+        <textarea class="item_add_note" name="note" placeholder="note"></textarea>
       </div>
       <div class="item_add_submit">
         <button type="submit" name="list">+</button>
@@ -28,12 +34,13 @@
   <div>Note</div>
 </div>
   <div class="box list" id="list">
+    <% let i = 1; %>
     <% newListItems.forEach(item=> { %>
         <%#  if (item.starred == true){ console.log(item.starred); %> 
         <%# var element = document.getElementById("word");%>  
         <%# element.classList.add("starred")} %>
          
-        <div class="item">
+        <div class="item" id="<%= 'word_' + i %>">
           <form action="/check" method="post">
             <input type="checkbox" name="checkbox" value="<%= item._id %>" onChange="this.form.submit()">
           </form>
@@ -47,10 +54,13 @@
             <%= item.note %>
           </div>
           <form action="/delete" method="post">
-            <input type="image" src="img/remove-ico.png" alt="" width="20" name="delete" values="<%= item._id %>"> 
+            <input type="hidden" name="delete" value="<%= item._id %>"> 
+            <input type="image" src="img/remove-ico.png" alt="" width="20"> 
           </form>
         </div>
+        <% i++; %>
     <% }); %>
+ 
   </div>
 
   <%- include("footer") -%>

@@ -76,11 +76,11 @@ input[type="text"] {
   text-align: center;
   height: 60px;
   top: 10px;
-  border: none;
+  border: 1px solid grey;
   background: transparent;
   font-size: 20px;
   font-weight: 200;
-  width: 313px;
+  width: -webkit-fill-available;
 }
 
 input[type="text"]:focus {
