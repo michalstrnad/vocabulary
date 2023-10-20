@@ -1,24 +1,56 @@
 <%- include("header") -%>
 
   <div class="box" id="heading">
-    <h1> <%= listTitle %> </h1>
+    <h1> Vocabulary </h1>
   </div>
 
-  <div class="box">
-    
-      <% newListItems.forEach(item => { %>
-        <form action="/delete" method="post">
-        <div class="item">
-        <input type="checkbox" name="checkbox" value="<%= item._id %>" onChange="this.form.submit()">
-        <p><%=  item.name_de  %></p>
+  <div class="box" id="new-item-box">
+    <form class="item_add" action="/" method="post">
+      <div class="item_add_inputs">
+        <input type="text" name="word_de" placeholder="German word/phrase" autocomplete="off">
+        <input type="text" name="word_cz" placeholder="Czech translation" autocomplete="off">
+        <select class="item_add_category" name="category">
+          <option value="german">German</option>
+          <option value="czech">Czech</option>
+          <option value="english">English</option>
+        </select>
+        <textarea class="item_add_note" name="note" placeholder="notes"></textarea>
+      </div>
+      <div class="item_add_submit">
+        <button type="submit" name="list">+</button>
       </div>
     </form>
-      <% }); %>
-
-      <form class="item" action="/" method="post">
-        <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
-        <button type="submit" name="list">+</button>
-      </form>
+  </div>
+<div class="box list item" id="list_header">
+  <div><input type="checkbox" name="checkbox" value="" onChange=""></div>
+  <div>German</div>
+  <div>Czech</div>
+  <div>Note</div>
+</div>
+  <div class="box list" id="list">
+    <% newListItems.forEach(item=> { %>
+        <%#  if (item.starred == true){ console.log(item.starred); %> 
+        <%# var element = document.getElementById("word");%>  
+        <%# element.classList.add("starred")} %>
+         
+        <div class="item">
+          <form action="/check" method="post">
+            <input type="checkbox" name="checkbox" value="<%= item._id %>" onChange="this.form.submit()">
+          </form>
+          <div>
+            <%= item.name_de %>
+          </div>
+          <div>
+            <%= item.name_cz %>
+          </div>
+          <div>
+            <%= item.note %>
+          </div>
+          <form action="/delete" method="post">
+            <input type="image" src="img/remove-ico.png" alt="" width="20" name="delete" values="<%= item._id %>"> 
+          </form>
+        </div>
+    <% }); %>
   </div>
 
-<%- include("footer") -%>
+  <%- include("footer") -%>

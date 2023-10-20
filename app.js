@@ -7,10 +7,11 @@ const app = express();
 app.set("view engine", "ejs");
 
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 app.use(express.static("public"));
 
 const mongoose = require("mongoose");
-const { boolean } = require("webidl-conversions");
+
 //----------------------------------------------------------------
 
 // connecting database, initializing mongoose schema and creating model
@@ -19,10 +20,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/vocabulary");
 
 // CATEGORY SCHEMA
 const categorySchema = new mongoose.Schema({ // creating a new schema for categories
-  name: {
-    type: String,
-    required: [true, "need a name"],
-  },
+  name: String
 });
 const Category = new mongoose.model("Category", categorySchema); //creating a new "category" model
 
@@ -59,7 +57,7 @@ app.get("/", function (req, res) {  // on homepage
 
         res.redirect("/"); // after creating and saving default TODO items in DB redirecting to homepage... it will then get to the "else" statement below and render the default items
       } else {
-        res.render("list", { listTitle: "Title", newListItems: foundItems });
+        res.render("list", { newListItems: foundItems });
       }
     })
     .catch(function (err) {
@@ -79,6 +77,7 @@ app.get("/", function (req, res) {  // on homepage
 
         res.redirect("/"); // after creating and saving default categories in DB redirecting to homepage... it will then get to the "else" statement below and render the default categories
       }
+      res.render("list", {categories: foundCategories });
     })
     .catch(function (err) {
       console.log(err);
@@ -86,39 +85,36 @@ app.get("/", function (req, res) {  // on homepage
 });
 
 app.post("/", (req, res) => {
-  const itemName = req.body.newItem;
+  const word_de = req.body.word_de;
+  const word_cz = req.body.word_cz;
+  const category = req.body.category;
+  const note = req.body.note;
+  const item = new Item({ name_de: word_de, name_cz: word_cz, category: {name: category}, note: note, starred: false, learnt: false, date: new Date() });
 
-  const item = new Item({ name: itemName });
   item.save();
+
+  res.redirect("/");
+
+});
+
+app.post("/check", (req, res) => {
+  const checkedItemId = req.body.checkbox;
+    Item.findByIdAndUpdate(checkedItemId, { $set: { starred: true } }).catch((err) => {
+      console.log(err);
+    });
 
   res.redirect("/");
 });
 
 app.post("/delete", (req, res) => {
-  const checkedItemId = req.body.checkbox;
+  const deleteItemId = req.body.delete;
 
-  Item.findByIdAndRemove(checkedItemId).catch((err) => {
+  Item.findByIdAndRemove(deleteItemId).catch((err) => {
     console.log(err);
   });
 
   res.redirect("/");
 });
-
-/* app.get("/:listName", (req, res) => {
-  const listName = req.params.listName;
-
-  const x = List.findOne({ name: listName });
-  const y = x.name;
-  if (y.length === 0) {
-    const list = new List({
-      name: listName,
-    });
-
-    list.save();
-  }
-
-  console.log(x);
-}); */
 
 app.listen(3000, function () {
   console.log("Server started on port 3000");
