@@ -9,31 +9,37 @@
       <div class="item_add_inputs">
         <div>
           <label for="word_de">German word/phrase</label>
-          <input type="text" name="word_de" autocomplete="off" autofocus>
+          <input type="text" name="word_de" id="word_de" autocomplete="off" autofocus>
         </div>
         <div>
           <label for="word_cz">Czech word/phrase</label>
-          <input type="text" name="word_cz" autocomplete="off">
+          <input type="text" name="word_cz" id="word_cz" autocomplete="off">
         </div>
-        <select class="item_add_category" name="category">
-          <option value="other" default>other</option>
-          <option value="food">Food</option>
-          <option value="clothing">Clothing</option>
-        </select>
-        <textarea class="item_add_note" name="note" placeholder="note"></textarea>
+        <div>
+          <label for="category_list">Category</label>
+          <select class="item_add_category" id="category_list" name="category">
+            <option value="other" default>other</option>
+            <option value="food">Food</option>
+            <option value="clothing">Clothing</option>
+          </select>
+        </div>
+        <div>
+          <label for="note">Note</label>
+          <textarea class="item_add_note" id="note" name="note"></textarea>
+        </div>
       </div>
       <div class="item_add_submit">
         <button type="submit" name="list">+</button>
       </div>
     </form>
   </div>
-<div class="box list item" id="list_header">
-  <div><input type="checkbox" name="checkbox" value="" onChange=""></div>
+<div class="box item" id="list_header">
+  <div></div>
   <div>German</div>
   <div>Czech</div>
   <div>Note</div>
 </div>
-  <div class="box list" id="list">
+  <div class="box" id="list">
     <% let i = 1; %>
     <% newListItems.forEach(item=> { %>
         <%#  if (item.starred == true){ console.log(item.starred); %> 
