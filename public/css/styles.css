@@ -146,5 +146,32 @@ grid-row-gap: 10px;
 }
 
 .starred{
+  content: '★';
   color: #e3c983;
+}
+
+
+/* CSS for the star checkbox */
+.star-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.star-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.star-input {
+  display: none;
+}
+
+.star-icon {
+  font-size: 24px;
+  user-select: none;
+}
+
+input[type="image"] {
+  margin: 10px;
 }
