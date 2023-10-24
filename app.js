@@ -98,12 +98,24 @@ app.post("/", (req, res) => {
 });
 
 app.post("/check", (req, res) => {
-  const checkedItemId = req.body.checkbox;
-    Item.findByIdAndUpdate(checkedItemId, { $set: { starred: true } }).catch((err) => {
-      console.log(err);
-    });
+  const checkedItemId = req.body.star;  
 
-  res.redirect("/");
+  Item.findById(checkedItemId)
+    .then((item) => {
+      if (item.starred) {
+        item.starred = false;
+      } else {
+        item.starred = true;
+      }
+      return item.save();
+    })
+    .then(() => {
+      res.redirect("/");
+    })
+    .catch((err) => {
+      console.log(err);
+      res.redirect("/");
+    });
 });
 
 app.post("/delete", (req, res) => {

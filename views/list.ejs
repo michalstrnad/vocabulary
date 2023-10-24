@@ -38,25 +38,50 @@
   <div>German</div>
   <div>Czech</div>
   <div>Note</div>
+  <div></div>
 </div>
   <div class="box" id="list">
     <% let i = 1; %>
     <% newListItems.forEach(item=> { %>
-        <%#  if (item.starred == true){ console.log(item.starred); %> 
-        <%# var element = document.getElementById("word");%>  
-        <%# element.classList.add("starred")} %>
-         
         <div class="item" id="<%= 'word_' + i %>">
           <form action="/check" method="post">
-            <input type="checkbox" name="checkbox" value="<%= item._id %>" onChange="this.form.submit()">
+            <label for= <%= 'star_' + i %> class="star-label">
+              <input type="checkbox" name="star" id= "<%= 'star_' + i %>" class="star-input" <%= item.starred ? 'checked' : '' %> value="<%= item._id %>" onChange="handleCheckboxChange(event)">
+              <span class="star-icon<%= item.starred ? ' starred' : '' %>">☆</span>
+            </label>
           </form>
-          <div>
+
+          <script>
+            function handleCheckboxChange(event) {
+              const checkedItemId = event.target.value;
+              const isChecked = event.target.checked;
+          
+              fetch('/check', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ star: checkedItemId, isChecked }),
+                redirect: 'follow'
+              })
+              .then((response) => {
+                if (response.redirected) {
+                  window.location.href = response.url; // Redirect to the response URL
+                } else {
+                  console.log('Request sent successfully');
+                }
+              })
+              .catch((error) => {
+                console.log('Error:', error);
+              });
+            }
+          </script>
+
+          <div contenteditable="true">
             <%= item.name_de %>
           </div>
-          <div>
+          <div contenteditable="true">
             <%= item.name_cz %>
           </div>
-          <div>
+          <div contenteditable="true">
             <%= item.note %>
           </div>
           <form action="/delete" method="post">
