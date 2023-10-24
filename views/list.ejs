@@ -52,6 +52,7 @@
           </form>
 
           <script>
+            // Handles the change event of a checkbox.
             function handleCheckboxChange(event) {
               const checkedItemId = event.target.value;
               const isChecked = event.target.checked;
@@ -75,15 +76,49 @@
             }
           </script>
 
-          <div contenteditable="true">
+          <div onfocusout="saveChanges(event, '<%= item._id %>' ,'name_de')" contenteditable="true">
             <%= item.name_de %>
           </div>
-          <div contenteditable="true">
+          <div onfocusout="saveChanges(event, '<%= item._id %>' ,'name_cz')" contenteditable="true">
             <%= item.name_cz %>
           </div>
-          <div contenteditable="true">
+          <div onfocusout="saveChanges(event, '<%= item._id %>' ,'note')" contenteditable="true">
             <%= item.note %>
           </div>
+
+          <script>
+          function saveChanges(event, itemId, propertyName) {
+            const newValue = event.target.innerText; // Get the updated value from the div
+          
+            // Create a data object to send in the POST request
+            const data = {
+              itemId: itemId,
+              propertyName: propertyName,
+              newValue: newValue,
+              redirect: 'follow'
+            };
+          
+            // Send the POST request to the server
+            fetch('/update', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify(data)
+            })
+            .then((response) => {
+                if (response.redirected) {
+                  window.location.href = response.url; // Redirect to the response URL
+                } else {
+                  console.log('Request sent successfully');
+                }
+              })
+              .catch((error) => {
+                console.log('Error:', error);
+              });
+          }
+          </script>
+          
           <form action="/delete" method="post">
             <input type="hidden" name="delete" value="<%= item._id %>"> 
             <input type="image" src="img/remove-ico.png" alt="" width="20"> 

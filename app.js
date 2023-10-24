@@ -118,6 +118,24 @@ app.post("/check", (req, res) => {
     });
 });
 
+app.post('/update', (req, res) => {
+  const { itemId, propertyName, newValue } = req.body;
+ 
+  // Update the MongoDB document using the received data
+  Item.findByIdAndUpdate(itemId, { [propertyName]: newValue })
+    .then(() => {
+      // Send a success response
+      res.status(200).json({ message: 'Document updated successfully' });
+      res.redirect("/");
+    })
+    .catch(err => {
+      console.error(err);
+      // Send an error response
+      res.status(500).json({ error: 'An error occurred while updating the document' });
+    });
+    res.redirect("/");
+});
+
 app.post("/delete", (req, res) => {
   const deleteItemId = req.body.delete;
 
