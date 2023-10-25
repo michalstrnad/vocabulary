@@ -126,7 +126,6 @@ app.post('/update', (req, res) => {
     .then(() => {
       // Send a success response
       res.status(200).json({ message: 'Document updated successfully' });
-      res.redirect("/");
     })
     .catch(err => {
       console.error(err);
