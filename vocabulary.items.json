@@ -1,0 +1,3730 @@
+[{
+  "_id": {
+    "$oid": "653829d5bdda4275bb6ed79d"
+  },
+  "name_de": "1. wort",
+  "name_cz": "1. slovo",
+  "note": "note",
+  "starred": false,
+  "learnt": false,
+  "date": {
+    "$date": "2023-10-24T20:32:21.617Z"
+  },
+  "category": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "653829d5bdda4275bb6ed79f"
+  },
+  "name_de": "3. wort",
+  "name_cz": "3. slovo",
+  "note": "note",
+  "starred": false,
+  "learnt": false,
+  "date": {
+    "$date": "2023-10-24T20:32:21.622Z"
+  },
+  "category": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "653829e5bdda4275bb6ed7a3"
+  },
+  "name_de": "neu",
+  "name_cz": "nový",
+  "note": "",
+  "starred": false,
+  "learnt": false,
+  "date": {
+    "$date": "2023-10-24T20:32:37.390Z"
+  },
+  "category": [
+    {
+      "name": "other",
+      "_id": {
+        "$oid": "653829e5bdda4275bb6ed7a4"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db5f"
+  },
+  "name_de": "übernehmen",
+  "name_cz": "převzít"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db60"
+  },
+  "name_de": "Regelmäßig",
+  "name_cz": "pravidelný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db61"
+  },
+  "name_de": "Tätigkeit",
+  "name_cz": "Aktivita"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db62"
+  },
+  "name_de": "überführen",
+  "name_cz": "Převést"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db63"
+  },
+  "name_de": "Betrieb",
+  "name_cz": "Operace"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db64"
+  },
+  "name_de": "Bzw. (Beziehungsweise)",
+  "name_cz": "respektive, případně, nebo"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db65"
+  },
+  "name_de": "Bzgl.",
+  "name_cz": "Ohledně, pokud jde o"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db66"
+  },
+  "name_de": "gelten",
+  "name_cz": "Použít"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db67"
+  },
+  "name_de": "mindestens",
+  "name_cz": "Minimálně, alespoň"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db68"
+  },
+  "name_de": "bekommen",
+  "name_cz": "Získat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db69"
+  },
+  "name_de": "Vorsehen",
+  "name_cz": "Poskytnout"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db6a"
+  },
+  "name_de": "Bereitstellen",
+  "name_cz": "Poskytnout"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db6b"
+  },
+  "name_de": "bereitstellung",
+  "name_cz": "přichystání"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db6c"
+  },
+  "name_de": "jeweilig",
+  "name_cz": "Příslušný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db6d"
+  },
+  "name_de": "Usw. (Und so weiter)",
+  "name_cz": "Atd."
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db6e"
+  },
+  "name_de": "überprüfung",
+  "name_cz": "Kontrola"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db6f"
+  },
+  "name_de": "absprache",
+  "name_cz": "Dohoda (domluva)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db70"
+  },
+  "name_de": "gemäß",
+  "name_cz": "Podle (v souladu s)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db71"
+  },
+  "name_de": "beschreibung",
+  "name_cz": "Popis"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db72"
+  },
+  "name_de": "e Vorlage",
+  "name_cz": "Šablona"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db73"
+  },
+  "name_de": "e Abstimmung",
+  "name_cz": "Soulad, koordinace, hlasování",
+  "__v": 1,
+  "category": [],
+  "starred": false
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db74"
+  },
+  "name_de": "stetig",
+  "name_cz": "Stabilní, průběžný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db75"
+  },
+  "name_de": "tragen",
+  "name_cz": "Přenášet, nosit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db76"
+  },
+  "name_de": "tatsächlich",
+  "name_cz": "Aktuální, skutečný, reálný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db77"
+  },
+  "name_de": "hinsichtlich",
+  "name_cz": "Ohledně"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db78"
+  },
+  "name_de": "beispielweise",
+  "name_cz": "Například"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db79"
+  },
+  "name_de": "anschließen",
+  "name_cz": "Připojit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db7a"
+  },
+  "name_de": "Einrichtung",
+  "name_cz": "Nastavení"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db7b"
+  },
+  "name_de": "Gültig",
+  "name_cz": "Platný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db7c"
+  },
+  "name_de": "Bereich",
+  "name_cz": "Oblast, oddělení"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db7d"
+  },
+  "name_de": "Pflicht",
+  "name_cz": "Povinnost, závazek"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db7e"
+  },
+  "name_de": "Grund",
+  "name_cz": "Důvod, základ, přízemí"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db7f"
+  },
+  "name_de": "Vertragsverletzung",
+  "name_cz": "Porušení smlouvy"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db80"
+  },
+  "name_de": "Erforderlich",
+  "name_cz": "Požadovaný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db81"
+  },
+  "name_de": "Erläuterung",
+  "name_cz": "Vysvětlení"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db82"
+  },
+  "name_de": "Einheit",
+  "name_cz": "Jednotka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db83"
+  },
+  "name_de": "Umfassen",
+  "name_cz": "Zahrnout, pojmout, obsáhnout"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db84"
+  },
+  "name_de": "Maß",
+  "name_cz": "Rozměr, míra"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db85"
+  },
+  "name_de": "deren",
+  "name_cz": "Jejich"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db86"
+  },
+  "name_de": "Auswertung",
+  "name_cz": "Hodnocení"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db87"
+  },
+  "name_de": "Gesamt",
+  "name_cz": "Celý, celkem"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db88"
+  },
+  "name_de": "Höchstmögliche",
+  "name_cz": "Nejvyšší možný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db89"
+  },
+  "name_de": "schätzen",
+  "name_cz": "Odhadnout"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db8a"
+  },
+  "name_de": "Schätzung",
+  "name_cz": "odhad"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db8b"
+  },
+  "name_de": "Aufteilen",
+  "name_cz": "Rozdělit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db8c"
+  },
+  "name_de": "Erreichung",
+  "name_cz": "Úspěch"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db8d"
+  },
+  "name_de": "wiederholen",
+  "name_cz": "Opakovat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db8e"
+  },
+  "name_de": "geeignet",
+  "name_cz": "Vhodný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db8f"
+  },
+  "name_de": "Entwerfen",
+  "name_cz": "Navrhnout, udělat plán, vypracovat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db90"
+  },
+  "name_de": "Menge",
+  "name_cz": "Množství"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db91"
+  },
+  "name_de": "anschließend",
+  "name_cz": "Poté, navazující"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db92"
+  },
+  "name_de": "Anfangen",
+  "name_cz": "Začít"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db93"
+  },
+  "name_de": "Ausgangsstand",
+  "name_cz": "Výchozí pozice"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db94"
+  },
+  "name_de": "Ausgang",
+  "name_cz": "Východ"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db95"
+  },
+  "name_de": "Eingang",
+  "name_cz": "vstup"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db96"
+  },
+  "name_de": "genau",
+  "name_cz": "Přesně, přesný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db97"
+  },
+  "name_de": "Notwendig",
+  "name_cz": "Nezbytný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db98"
+  },
+  "name_de": "Im Hinblick auf",
+  "name_cz": "S ohledem na, vzhledem k, z hlediska"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db99"
+  },
+  "name_de": "Tätigkeit",
+  "name_cz": "Činnost"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db9a"
+  },
+  "name_de": "Gesellschaft",
+  "name_cz": "Společnost"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db9b"
+  },
+  "name_de": "Eigenschaft",
+  "name_cz": "Vlastnost"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db9c"
+  },
+  "name_de": "Erdgeschoss\n Obergeschoss (2.OG)\n Dachgeschoss",
+  "name_cz": "Přízemí\n horní partro (2. patro)\n podkroví"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db9d"
+  },
+  "name_de": "entweder oder",
+  "name_cz": "Buď anebo"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db9e"
+  },
+  "name_de": "Versuchen",
+  "name_cz": "Zkusit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589db9f"
+  },
+  "name_de": "Erreichbar",
+  "name_cz": "Dostupný",
+  "note": "(k dispozici)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dba0"
+  },
+  "name_de": "ggf (gegebenenfalls)",
+  "name_cz": "Možná, možný, případně"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dba1"
+  },
+  "name_de": "veranstaltung",
+  "name_cz": "Událost"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dba2"
+  },
+  "name_de": "Gesperrt",
+  "name_cz": "Uzamčený"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dba3"
+  },
+  "name_de": "Wie gewohnt",
+  "name_cz": "Jako obvykle"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dba4"
+  },
+  "name_de": "vervollständigen",
+  "name_cz": "Zkompletovat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dba5"
+  },
+  "name_de": "Zur Verfügung",
+  "name_cz": "k dispozici"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dba6"
+  },
+  "name_de": "Bleiben",
+  "name_cz": "Zůstat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dba7"
+  },
+  "name_de": "gesund",
+  "name_cz": "Zdravý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dba8"
+  },
+  "name_de": "Abteilung",
+  "name_cz": "Oddělení"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dba9"
+  },
+  "name_de": "Aufgrund",
+  "name_cz": "Z důvodu"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbaa"
+  },
+  "name_de": "Kennzahlen",
+  "name_cz": "Klíčové údaje"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbab"
+  },
+  "name_de": "Folgen",
+  "name_cz": "Sledovat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbac"
+  },
+  "name_de": "Erfolgreich",
+  "name_cz": "Úspěšný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbad"
+  },
+  "name_de": "Passt das so?",
+  "name_cz": "Sedí to?"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbae"
+  },
+  "name_de": "Grundsätzlich",
+  "name_cz": "V podstatě"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbaf"
+  },
+  "name_de": "Klug",
+  "name_cz": "Chytrý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbb0"
+  },
+  "name_de": "Hoffnung",
+  "name_cz": "Naděje"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbb1"
+  },
+  "name_de": "Toll",
+  "name_cz": "Skvělý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbb2"
+  },
+  "name_de": "Reich",
+  "name_cz": "Bohatý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbb3"
+  },
+  "name_de": "Stelzen",
+  "name_cz": "Chudý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbb4"
+  },
+  "name_de": "Zeitschrift",
+  "name_cz": "Časopis"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbb5"
+  },
+  "name_de": "Entweder - oder",
+  "name_cz": "Buď - anebo"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbb6"
+  },
+  "name_de": "e Entscheidung",
+  "name_cz": "rozhodnutí"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbb7"
+  },
+  "name_de": "einschließlich",
+  "name_cz": "včetně"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbb8"
+  },
+  "name_de": "Steuergerät",
+  "name_cz": "Řidicí jednotka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbb9"
+  },
+  "name_de": "Leistung",
+  "name_cz": "Výkon, práce, služba"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbba"
+  },
+  "name_de": "Spannung",
+  "name_cz": "napětí"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbbb"
+  },
+  "name_de": "Anhang",
+  "name_cz": "dodatek"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbbc"
+  },
+  "name_de": "Entwicklung",
+  "name_cz": "Vývoj"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbbd"
+  },
+  "name_de": "auftragen",
+  "name_cz": "objednat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbbe"
+  },
+  "name_de": "Auftragnehmer",
+  "name_cz": "Zhotovitel"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbbf"
+  },
+  "name_de": "Auftraggeber",
+  "name_cz": "klient"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbc0"
+  },
+  "name_de": "Anforderung",
+  "name_cz": "Požadavek"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbc1"
+  },
+  "name_de": "Rahmenbedingungen",
+  "name_cz": "Rámcové podmínky"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbc2"
+  },
+  "name_de": "Betriebsmittelvorschriften",
+  "name_cz": "Předpisy o provozních zdrojích"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbc3"
+  },
+  "name_de": "Testfallspezifikation",
+  "name_cz": "Specifikace test případu"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbc4"
+  },
+  "name_de": "Verfügung",
+  "name_cz": "Objednávka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbc5"
+  },
+  "name_de": "Inbetriebnahme",
+  "name_cz": "Uvedení do provozu"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbc6"
+  },
+  "name_de": "anpassung",
+  "name_cz": "Adaptace"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbc7"
+  },
+  "name_de": "testbarkeit",
+  "name_cz": "Testovatelnost"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbc8"
+  },
+  "name_de": "erarbeitung",
+  "name_cz": "Vypracování"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbc9"
+  },
+  "name_de": "Lastenheft (LAH)",
+  "name_cz": "Specifikace"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbca"
+  },
+  "name_de": "Testausführung",
+  "name_cz": "Provedení testu",
+  "note": "(realizace, vykonání)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbcb"
+  },
+  "name_de": "Testinhalt",
+  "name_cz": "Obsah testu"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbcc"
+  },
+  "name_de": "testabdeckung",
+  "name_cz": "Pokrytí testů"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbcd"
+  },
+  "name_de": "Testergebnisse",
+  "name_cz": "Výsledky testů"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbce"
+  },
+  "name_de": "Gesetzeskonformität",
+  "name_cz": "Dodržování právních předpisů"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbcf"
+  },
+  "name_de": "Wartung",
+  "name_cz": "Údržba"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbd0"
+  },
+  "name_de": "Pflege",
+  "name_cz": "Péče"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbd1"
+  },
+  "name_de": "Reparaturaufwendungen",
+  "name_cz": "Výdaje na opravy"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbd2"
+  },
+  "name_de": "tausch",
+  "name_cz": "Výměna"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbd3"
+  },
+  "name_de": "Bedarf",
+  "name_cz": "Poptávka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbd4"
+  },
+  "name_de": "Querschnittslastenhefte",
+  "name_cz": "Průřezová specifikace"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbd5"
+  },
+  "name_de": "Steuerung",
+  "name_cz": "Ovládání"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbd6"
+  },
+  "name_de": "Rücksprache",
+  "name_cz": "Konzultace"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbd7"
+  },
+  "name_de": "Übernommen",
+  "name_cz": "Přijatý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbd8"
+  },
+  "name_de": "Leistungsumfänge",
+  "name_cz": "Rozsah služeb"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbd9"
+  },
+  "name_de": "Systemverantwortlichen",
+  "name_cz": "Správce systému"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbda"
+  },
+  "name_de": "Auftragsabwicklung",
+  "name_cz": "Zpracování objednávek"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbdb"
+  },
+  "name_de": "Eigenturm",
+  "name_cz": "Majetek"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbdc"
+  },
+  "name_de": "Ergebnisse",
+  "name_cz": "Výsledky"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbdd"
+  },
+  "name_de": "Fortschritt",
+  "name_cz": "Pokrok (progres)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbde"
+  },
+  "name_de": "Verzögerungen",
+  "name_cz": "Zpoždění"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbdf"
+  },
+  "name_de": "Abweichung",
+  "name_cz": "Odchylka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbe0"
+  },
+  "name_de": "Sollterminen",
+  "name_cz": "Cílové termíny"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbe1"
+  },
+  "name_de": "Abrechnung",
+  "name_cz": "Fakturace"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbe2"
+  },
+  "name_de": "Prüfstand",
+  "name_cz": "Test bench"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbe3"
+  },
+  "name_de": "Zugriff",
+  "name_cz": "Přístup"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbe4"
+  },
+  "name_de": "Projektunterlagen",
+  "name_cz": "Projektová dokumentace"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbe5"
+  },
+  "name_de": "Leistungsnachweis",
+  "name_cz": "Záznam o výkonu"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbe6"
+  },
+  "name_de": "Vergütung",
+  "name_cz": "Kompenzace, úhrada, odměna"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbe7"
+  },
+  "name_de": "Rechte Dritter",
+  "name_cz": "Práva třetích stran"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbe8"
+  },
+  "name_de": "Datenschutz",
+  "name_cz": "Ochrana údajů"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbe9"
+  },
+  "name_de": "Kündigung",
+  "name_cz": "Vypovězení, ukončení"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbea"
+  },
+  "name_de": "Erprobung",
+  "name_cz": "Testování, zkouška"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbeb"
+  },
+  "name_de": "Instandhaltung",
+  "name_cz": "Údržba"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbec"
+  },
+  "name_de": "Allgemein",
+  "name_cz": "Obecně, obvykle, všeobecně"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbed"
+  },
+  "name_de": "Bedingung",
+  "name_cz": "Stav, podmínka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbee"
+  },
+  "name_de": "Schnittstelle",
+  "name_cz": "Rozhraní"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbef"
+  },
+  "name_de": "Erweiterung",
+  "name_cz": "Rozšíření"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbf0"
+  },
+  "name_de": "Arbeitszeitablauf",
+  "name_cz": "Pracovní plán"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbf1"
+  },
+  "name_de": "Festlegung",
+  "name_cz": "Stanovení, definice"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbf2"
+  },
+  "name_de": "Zeiteinsparung",
+  "name_cz": "Úspora času"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbf3"
+  },
+  "name_de": "Funktionstüchtigkeit",
+  "name_cz": "Funkčnost"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbf4"
+  },
+  "name_de": "Zuverlässigkeit",
+  "name_cz": "Spolehlivost"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbf5"
+  },
+  "name_de": "Zusätzlich",
+  "name_cz": "Dodatečný, doplňkový"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbf6"
+  },
+  "name_de": "unterbeauftragter",
+  "name_cz": "Subdodavatel"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbf7"
+  },
+  "name_de": "Berufsausübung",
+  "name_cz": "Odborná praxe"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbf8"
+  },
+  "name_de": "Leistungsfristen",
+  "name_cz": "Termíny plnění"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbf9"
+  },
+  "name_de": "Nebenkosten",
+  "name_cz": "Dodatečné náklady",
+  "note": "(vedlejší)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbfa"
+  },
+  "name_de": "umsetzen",
+  "name_cz": "Implementovat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbfb"
+  },
+  "name_de": "Unterstützung",
+  "name_cz": "Podpora"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbfc"
+  },
+  "name_de": "Geschwindigkeit",
+  "name_cz": "rychlost"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbfd"
+  },
+  "name_de": "Die Schmetterling",
+  "name_cz": "motýl"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbfe"
+  },
+  "name_de": "Die Spinne",
+  "name_cz": "pavouk"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dbff"
+  },
+  "name_de": "Die Fische",
+  "name_cz": "Rybičky (ryby)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc00"
+  },
+  "name_de": "Der Papagei",
+  "name_cz": "papoušek",
+  "note": ""
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc01"
+  },
+  "name_de": "Die Eltern",
+  "name_cz": "rodiče"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc02"
+  },
+  "name_de": "Füttern",
+  "name_cz": "Krmit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc03"
+  },
+  "name_de": "bleiben",
+  "name_cz": "nechat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc04"
+  },
+  "name_de": "Bis jetzt",
+  "name_cz": "doteď"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc05"
+  },
+  "name_de": "überlegen",
+  "name_cz": "přemýšlet"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc06"
+  },
+  "name_de": "hamster",
+  "name_cz": "křeček"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc07"
+  },
+  "name_de": "meerschweinchen",
+  "name_cz": "morče"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc08"
+  },
+  "name_de": "Die Tochter",
+  "name_cz": "dcera"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc09"
+  },
+  "name_de": "Der Sohn",
+  "name_cz": "syn"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc0a"
+  },
+  "name_de": "Der Junge",
+  "name_cz": "chlapec"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc0b"
+  },
+  "name_de": "Windeln",
+  "name_cz": "plýny"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc0c"
+  },
+  "name_de": "noch",
+  "name_cz": "ještě"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc0d"
+  },
+  "name_de": "schon",
+  "name_cz": "už"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc0e"
+  },
+  "name_de": "Still",
+  "name_cz": "Tichý, potichu"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc0f"
+  },
+  "name_de": "teilzeit",
+  "name_cz": "Na částečný úvazek"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc10"
+  },
+  "name_de": "meißtens",
+  "name_cz": "většinou"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc11"
+  },
+  "name_de": "immer",
+  "name_cz": "vždy"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc12"
+  },
+  "name_de": "manchmal",
+  "name_cz": "někdy"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc13"
+  },
+  "name_de": "oft",
+  "name_cz": "často"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc14"
+  },
+  "name_de": "selten",
+  "name_cz": "zřídka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc15"
+  },
+  "name_de": "Ab und zu",
+  "name_cz": "Čas od času"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc16"
+  },
+  "name_de": "baden",
+  "name_cz": "Koupat se"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc17"
+  },
+  "name_de": "duschen",
+  "name_cz": "Sprchovat se"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc18"
+  },
+  "name_de": "razieren",
+  "name_cz": "Holit se"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc19"
+  },
+  "name_de": "anziehen",
+  "name_cz": "Oblékat se"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc1a"
+  },
+  "name_de": "Das Hähnchen",
+  "name_cz": "kuře"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc1b"
+  },
+  "name_de": "Der Tee",
+  "name_cz": "čaj"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc1c"
+  },
+  "name_de": "Der Kaffee",
+  "name_cz": "kafe"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc1d"
+  },
+  "name_de": "Das Cafe",
+  "name_cz": "kavárna"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc1e"
+  },
+  "name_de": "Spielen Gitarre",
+  "name_cz": "Hrát na kytaru",
+  "note": "(Slovesa s hudebními nástroji jsou bez předložek)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc1f"
+  },
+  "name_de": "Die Uhr",
+  "name_cz": "hodiny"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc20"
+  },
+  "name_de": "Der Tisch",
+  "name_cz": "stůl"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc21"
+  },
+  "name_de": "Der Stuhl",
+  "name_cz": "židle"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc22"
+  },
+  "name_de": "Der Herz",
+  "name_cz": "sporák"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc23"
+  },
+  "name_de": "Die Küche",
+  "name_cz": "kuchyně"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc24"
+  },
+  "name_de": "zufrieden",
+  "name_cz": "spokojený"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc25"
+  },
+  "name_de": "Begeißtert",
+  "name_cz": "nadšený"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc26"
+  },
+  "name_de": "drinnen",
+  "name_cz": "uvnitř"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc27"
+  },
+  "name_de": "draußen",
+  "name_cz": "Venku (mimo)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc28"
+  },
+  "name_de": "s Geschenk",
+  "name_cz": "dárek"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc29"
+  },
+  "name_de": "übernachten",
+  "name_cz": "přespat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc2a"
+  },
+  "name_de": "s Zelt",
+  "name_cz": "stan"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc2b"
+  },
+  "name_de": "beleuchtet",
+  "name_cz": "Osvětlený"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc2c"
+  },
+  "name_de": "s Licht",
+  "name_cz": "Světlo"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc2d"
+  },
+  "name_de": "Denken - gedacht",
+  "name_cz": "Myslet"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc2e"
+  },
+  "name_de": "später",
+  "name_cz": "Později"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc2f"
+  },
+  "name_de": "Feiertag",
+  "name_cz": "Dovolená, prázdniny"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc30"
+  },
+  "name_de": "feierabend",
+  "name_cz": "Konec pracovní doby"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc31"
+  },
+  "name_de": "billiger",
+  "name_cz": "Levnější"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc32"
+  },
+  "name_de": "s Geburtstag",
+  "name_cz": "Narozeniny"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc33"
+  },
+  "name_de": "Günstig",
+  "name_cz": "Výhodný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc34"
+  },
+  "name_de": "s Erlebnis",
+  "name_cz": "Zážitek, zkušenost"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc35"
+  },
+  "name_de": "r Fluss",
+  "name_cz": "Řeka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc36"
+  },
+  "name_de": "s Bargeld",
+  "name_cz": "Hotovost"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc37"
+  },
+  "name_de": "Ich bezahle bar.",
+  "name_cz": "Platím hotově."
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc38"
+  },
+  "name_de": "schicken",
+  "name_cz": "Poslat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc39"
+  },
+  "name_de": "Geld überweißen",
+  "name_cz": "Převést peníze"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc3a"
+  },
+  "name_de": "(sich) Vorstellen",
+  "name_cz": "Představit se"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc3b"
+  },
+  "name_de": "Es freut mich.",
+  "name_cz": "Těší mě."
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc3c"
+  },
+  "name_de": "treffen",
+  "name_cz": "Potkat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc3d"
+  },
+  "name_de": "Er möchte",
+  "name_cz": "On chce",
+  "note": "U způsobových sloves bez 't' na konci"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc3e"
+  },
+  "name_de": "bisschen",
+  "name_cz": "Trochu"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc3f"
+  },
+  "name_de": "wiederholen",
+  "name_cz": "Opakovat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc40"
+  },
+  "name_de": "Auf wiederschauen",
+  "name_cz": "Na shledanou"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc41"
+  },
+  "name_de": "Seit",
+  "name_cz": "už"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc42"
+  },
+  "name_de": "Blumen",
+  "name_cz": "květiny"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc43"
+  },
+  "name_de": "Bäume",
+  "name_cz": "stromy"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc44"
+  },
+  "name_de": "Pflanzen",
+  "name_cz": "Rostliny"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc45"
+  },
+  "name_de": "Busch",
+  "name_cz": "Keř"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc46"
+  },
+  "name_de": "s Obst",
+  "name_cz": "Ovoce"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc47"
+  },
+  "name_de": "s Gemüse",
+  "name_cz": "Zelenina"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc48"
+  },
+  "name_de": "Woher",
+  "name_cz": "Odkud"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc49"
+  },
+  "name_de": "Wohin",
+  "name_cz": "Kam"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc4a"
+  },
+  "name_de": "warten",
+  "name_cz": "Čekat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc4b"
+  },
+  "name_de": "Bis später.",
+  "name_cz": "Uvidíme se později"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc4c"
+  },
+  "name_de": "e Stadt",
+  "name_cz": "Město"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc4d"
+  },
+  "name_de": "zuerst",
+  "name_cz": "Nejdříve, zaprvé"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc4e"
+  },
+  "name_de": "Ihr",
+  "name_cz": "její",
+  "note": "Když je přivlastňovací tohle zájmeno, tak se píše velké písmeno"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc4f"
+  },
+  "name_de": "r Brezel",
+  "name_cz": "Preclík"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc50"
+  },
+  "name_de": "e Geschwister",
+  "name_cz": "Sourozenci ",
+  "note": "(jen v množném čísle)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc51"
+  },
+  "name_de": "e Eltern",
+  "name_cz": "Rodiče ",
+  "note": "(také jen v množném čísle)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc52"
+  },
+  "name_de": "r Bruder",
+  "name_cz": "Bratr"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc53"
+  },
+  "name_de": "e Schwester",
+  "name_cz": "Sestra"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc54"
+  },
+  "name_de": "e Muti / r Fati",
+  "name_cz": "Zdrobněle Mutter / Vatter"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc55"
+  },
+  "name_de": "geschieden",
+  "name_cz": "Rozvedený"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc56"
+  },
+  "name_de": "ledig",
+  "name_cz": "Svobodný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc57"
+  },
+  "name_de": "verheiratet",
+  "name_cz": "Ženatý / vdaná"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc58"
+  },
+  "name_de": "verwitwet",
+  "name_cz": "Ovdovělý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc59"
+  },
+  "name_de": "e Familienstand",
+  "name_cz": "Rodinný stav"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc5a"
+  },
+  "name_de": "gleich",
+  "name_cz": "Stejný, rovný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc5b"
+  },
+  "name_de": "e Ente",
+  "name_cz": "Kachna"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc5c"
+  },
+  "name_de": "Los gehen wir.",
+  "name_cz": "Pojďme!"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc5d"
+  },
+  "name_de": "Los, los",
+  "name_cz": "Pojď, pojď / Běž, běž / Přidej, přidej"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc5e"
+  },
+  "name_de": "klagen",
+  "name_cz": "Stěžovat si ",
+  "note": "(Ich kann nich klagen - nemohu si stěžovat)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc5f"
+  },
+  "name_de": "So so",
+  "name_cz": "Jakž takž"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc60"
+  },
+  "name_de": "Wie geht se euch/Ihnen?",
+  "name_cz": "Jak se máte (vy)/(Vy)?"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc61"
+  },
+  "name_de": "r Enkel / e Enkelin / e Enkelkinder",
+  "name_cz": "Vnuk / vnučka / vnoučata"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc62"
+  },
+  "name_de": "nett",
+  "name_cz": "Pěkný, milý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc63"
+  },
+  "name_de": "r Kellner",
+  "name_cz": "Číšník"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc64"
+  },
+  "name_de": "müde",
+  "name_cz": "Unavený"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc65"
+  },
+  "name_de": "früh",
+  "name_cz": "brzo"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc66"
+  },
+  "name_de": "Was ist los?",
+  "name_cz": "Co se děje?"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc67"
+  },
+  "name_de": "Um halb acht.",
+  "name_cz": "V půl osmé. ",
+  "note": "(bez předložky)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc68"
+  },
+  "name_de": "Spät (er)",
+  "name_cz": "Pozdě (ji)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc69"
+  },
+  "name_de": "Liegen (gelegen)",
+  "name_cz": "Ležet"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc6a"
+  },
+  "name_de": "Ich bin eingeschlafen.",
+  "name_cz": "Usnul jsem."
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc6b"
+  },
+  "name_de": "Am Abend",
+  "name_cz": "Večer"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc6c"
+  },
+  "name_de": "s Helle",
+  "name_cz": "Světlo (jasno)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc6d"
+  },
+  "name_de": "neben",
+  "name_cz": "Vedle"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc6e"
+  },
+  "name_de": "Am Park",
+  "name_cz": "(těsně) u parku"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc6f"
+  },
+  "name_de": "lachen",
+  "name_cz": "Smát se"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc70"
+  },
+  "name_de": "ruhig",
+  "name_cz": "Klidný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc71"
+  },
+  "name_de": "gefährlich",
+  "name_cz": "Nebezpečný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc72"
+  },
+  "name_de": "e Rutsche",
+  "name_cz": "Skluzavka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc73"
+  },
+  "name_de": "rutschen",
+  "name_cz": "Klouzat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc74"
+  },
+  "name_de": "s Glaiß",
+  "name_cz": "Koleje"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc75"
+  },
+  "name_de": "Sich erinnern",
+  "name_cz": "Pamatovat (vzpomínat) si na něco"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc76"
+  },
+  "name_de": "nach",
+  "name_cz": "Po (časově)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc77"
+  },
+  "name_de": "Nach Hause",
+  "name_cz": "Domů"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc78"
+  },
+  "name_de": "Hausaufgabe",
+  "name_cz": "Domácí úkol"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc79"
+  },
+  "name_de": "schrecklig",
+  "name_cz": "Strašný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc7a"
+  },
+  "name_de": "beide",
+  "name_cz": "Oba"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc7b"
+  },
+  "name_de": "gestern",
+  "name_cz": "Včera"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc7c"
+  },
+  "name_de": "heute",
+  "name_cz": "Dnes"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc7d"
+  },
+  "name_de": "morgen",
+  "name_cz": "Zítra"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc7e"
+  },
+  "name_de": "zurzeit",
+  "name_cz": "V současné době"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc7f"
+  },
+  "name_de": "e Messe",
+  "name_cz": "Veletrh"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc80"
+  },
+  "name_de": "r Aussteller",
+  "name_cz": "Vystavovatel"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc81"
+  },
+  "name_de": "e Unterkunft",
+  "name_cz": "Ubytování"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc82"
+  },
+  "name_de": "e Stunde",
+  "name_cz": "Hodina - es dauert 8 Stunden",
+  "note": "(doba trvání)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc83"
+  },
+  "name_de": "e Uhr",
+  "name_cz": "Hodina - treffen um 8 Uhr",
+  "note": "(bod v čase)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc84"
+  },
+  "name_de": "mehrmals",
+  "name_cz": "Vícekrát"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc85"
+  },
+  "name_de": "beliebt",
+  "name_cz": "Oblíbený"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc86"
+  },
+  "name_de": "Lieblings(gebiet)",
+  "name_cz": "Oblíbená (oblast)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc87"
+  },
+  "name_de": "Vor 15 Jahren",
+  "name_cz": "Před 15 lety"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc88"
+  },
+  "name_de": "Vetbeverb",
+  "name_cz": "Soutěž, závod"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc89"
+  },
+  "name_de": "Weltmeisterschaft",
+  "name_cz": "Mistrovství světa"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc8a"
+  },
+  "name_de": "Besucher",
+  "name_cz": "Návštěvník"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc8b"
+  },
+  "name_de": "Zuschauer",
+  "name_cz": "Divák"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc8c"
+  },
+  "name_de": "durch",
+  "name_cz": "Skrz"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc8d"
+  },
+  "name_de": "Seit einem Jahr",
+  "name_cz": "(být někde / dělat něco) rok ",
+  "note": "(konstatování doby)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc8e"
+  },
+  "name_de": "Schon ein Jahr",
+  "name_cz": "Už rok ",
+  "note": "(trvá to dlouho)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc8f"
+  },
+  "name_de": "Erst ein Jahr",
+  "name_cz": "Teprce rok ",
+  "note": "(trvá to krátce)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc90"
+  },
+  "name_de": "Das passt.",
+  "name_cz": "To se hodí."
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc91"
+  },
+  "name_de": "Pfannkuchen",
+  "name_cz": "Palačinky"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc92"
+  },
+  "name_de": "e Pfanne",
+  "name_cz": "Pánev"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc93"
+  },
+  "name_de": "r Hunger",
+  "name_cz": "Hlad"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc94"
+  },
+  "name_de": "r Kuchen",
+  "name_cz": "koláč"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc95"
+  },
+  "name_de": "wörtlich",
+  "name_cz": "doslova"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc96"
+  },
+  "name_de": "e Butter",
+  "name_cz": "máslo"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc97"
+  },
+  "name_de": "s Mehl",
+  "name_cz": "mouka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc98"
+  },
+  "name_de": "r Zucker",
+  "name_cz": "cukr"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc99"
+  },
+  "name_de": "e Milch",
+  "name_cz": "mléko"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc9a"
+  },
+  "name_de": "lecker",
+  "name_cz": "dobrý, lahodný ",
+  "note": "(jen o jídle)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc9b"
+  },
+  "name_de": "s Ei (e Eier)",
+  "name_cz": "vejce ",
+  "note": "(mn.č.)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc9c"
+  },
+  "name_de": "brauchen",
+  "name_cz": "potřebovat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc9d"
+  },
+  "name_de": "Das macht 2 Euro.",
+  "name_cz": "Stojí to 2 eura."
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc9e"
+  },
+  "name_de": "Wie viel kostet…?",
+  "name_cz": "Kolik to stojí?"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dc9f"
+  },
+  "name_de": "Die schmeckt.",
+  "name_cz": "Chutná"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dca0"
+  },
+  "name_de": "e Überraschung",
+  "name_cz": "překvapení"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dca1"
+  },
+  "name_de": "s Mist",
+  "name_cz": "hnůj ",
+  "note": "(jemná nadávka… ala \"sakra\")"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dca2"
+  },
+  "name_de": "anstrengend",
+  "name_cz": "náročný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dca3"
+  },
+  "name_de": "im Garten",
+  "name_cz": "na zahradě"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dca4"
+  },
+  "name_de": "r Kurort",
+  "name_cz": "lázně"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dca5"
+  },
+  "name_de": "jedes",
+  "name_cz": "každý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dca6"
+  },
+  "name_de": "behindert",
+  "name_cz": "postižený"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dca7"
+  },
+  "name_de": "entwickeln",
+  "name_cz": "vyvíjet"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dca8"
+  },
+  "name_de": "klar",
+  "name_cz": "jasný, zřejmý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dca9"
+  },
+  "name_de": "I würde sagen.",
+  "name_cz": "Řekl bych."
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcaa"
+  },
+  "name_de": "gerade",
+  "name_cz": "přímo, rovně, po rovině"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcab"
+  },
+  "name_de": "Gelände",
+  "name_cz": "terén"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcac"
+  },
+  "name_de": "r Wurtzel",
+  "name_cz": "kořen"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcad"
+  },
+  "name_de": "nah",
+  "name_cz": "blízko"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcae"
+  },
+  "name_de": "weit",
+  "name_cz": "daleko"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcaf"
+  },
+  "name_de": "ziemlich",
+  "name_cz": "poměrně, docela"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcb0"
+  },
+  "name_de": "seit Donnerstag",
+  "name_cz": "od čtvrtka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcb1"
+  },
+  "name_de": "wechseln",
+  "name_cz": "vyměnit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcb2"
+  },
+  "name_de": "feiern",
+  "name_cz": "slavit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcb3"
+  },
+  "name_de": "verschieden",
+  "name_cz": "různý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcb4"
+  },
+  "name_de": "sein überrascht",
+  "name_cz": "být překvapený"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcb5"
+  },
+  "name_de": "schwach",
+  "name_cz": "slabý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcb6"
+  },
+  "name_de": "Abendessen",
+  "name_cz": "večeře"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcb7"
+  },
+  "name_de": "obwohl",
+  "name_cz": "přestože ",
+  "note": "(sloveso pak na konci)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcb8"
+  },
+  "name_de": "sich verständigen",
+  "name_cz": "rozumět si"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcb9"
+  },
+  "name_de": "viel mehr",
+  "name_cz": "mnohem víc"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcba"
+  },
+  "name_de": "lehren",
+  "name_cz": "učit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcbb"
+  },
+  "name_de": "unterichten",
+  "name_cz": "vyučovat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcbc"
+  },
+  "name_de": "beibringen",
+  "name_cz": "vysvětlit, naučit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcbd"
+  },
+  "name_de": "Schulwessen",
+  "name_cz": "školství"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcbe"
+  },
+  "name_de": "so wie so",
+  "name_cz": "tak jako tak, stejně, beztak"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcbf"
+  },
+  "name_de": "Weltsprache",
+  "name_cz": "světový jazyk"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcc0"
+  },
+  "name_de": "unterschiedlich",
+  "name_cz": "rozdílný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcc1"
+  },
+  "name_de": "einfach",
+  "name_cz": "jednoduchý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcc2"
+  },
+  "name_de": "seltsam",
+  "name_cz": "podivný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcc3"
+  },
+  "name_de": "r Pfand",
+  "name_cz": "záloha"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcc4"
+  },
+  "name_de": "Pfandflasche",
+  "name_cz": "zálohovaná lahev"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcc5"
+  },
+  "name_de": "überhaupt",
+  "name_cz": "vůbec"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcc6"
+  },
+  "name_de": "s Felsen",
+  "name_cz": "skála"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcc7"
+  },
+  "name_de": "treffen",
+  "name_cz": "potkat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcc8"
+  },
+  "name_de": "Bimelbahn",
+  "name_cz": "úzkokolejka ",
+  "note": "(hovorově)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcc9"
+  },
+  "name_de": "Dampf",
+  "name_cz": "pára"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcca"
+  },
+  "name_de": "schmalspurbahn",
+  "name_cz": "úzkokolejka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dccb"
+  },
+  "name_de": "Klasse",
+  "name_cz": "třída ",
+  "note": "(i jako školní třída)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dccc"
+  },
+  "name_de": "r Schafner",
+  "name_cz": "průvodčí"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dccd"
+  },
+  "name_de": "lustig",
+  "name_cz": "vtipný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcce"
+  },
+  "name_de": "hoffentlich",
+  "name_cz": "snad, doufejme"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dccf"
+  },
+  "name_de": "umsteigen",
+  "name_cz": "přestupovat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcd0"
+  },
+  "name_de": "Angst",
+  "name_cz": "strach"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcd1"
+  },
+  "name_de": "Ausflug",
+  "name_cz": "výlet"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcd2"
+  },
+  "name_de": "Tierpark",
+  "name_cz": "ZOO"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcd3"
+  },
+  "name_de": "Bauenhof",
+  "name_cz": "statek"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcd4"
+  },
+  "name_de": "Ziege",
+  "name_cz": "koza"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcd5"
+  },
+  "name_de": "Huhn",
+  "name_cz": "kuře"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcd6"
+  },
+  "name_de": "Werkzeug",
+  "name_cz": "nářadí"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcd7"
+  },
+  "name_de": "Spaß",
+  "name_cz": "zábava"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcd8"
+  },
+  "name_de": "Teigwaren",
+  "name_cz": "těstoviny"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcd9"
+  },
+  "name_de": "Linsen",
+  "name_cz": "čočka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcda"
+  },
+  "name_de": "Gericht",
+  "name_cz": "jídlo"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcdb"
+  },
+  "name_de": "Kalte Schalle",
+  "name_cz": "typická studená polívka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcdc"
+  },
+  "name_de": "s Pfund",
+  "name_cz": "půlkilo ",
+  "note": "(pozn.: nepoužívají dekagramy, jen gramy)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcdd"
+  },
+  "name_de": "e Tasse",
+  "name_cz": "hrnek"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcde"
+  },
+  "name_de": "s Glass",
+  "name_cz": "sklenice"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcdf"
+  },
+  "name_de": "ein Glass wasser\n eine Tasse Tee",
+  "name_cz": "sklenice vody\n šálek čaje"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dce0"
+  },
+  "name_de": "e Dose",
+  "name_cz": "krabička, plechovka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dce1"
+  },
+  "name_de": "e Soße",
+  "name_cz": "omáčka / krém"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dce2"
+  },
+  "name_de": "allgemein",
+  "name_cz": "obecný, obvykle, celkový"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dce3"
+  },
+  "name_de": "eben",
+  "name_cz": "teda, totiž"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dce4"
+  },
+  "name_de": "Durst",
+  "name_cz": "žízeň"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dce5"
+  },
+  "name_de": "Forelle",
+  "name_cz": "pstruh"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dce6"
+  },
+  "name_de": "mit dem Bus",
+  "name_cz": "všechny dopravní prostředky jsou \"mit\""
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dce7"
+  },
+  "name_de": "tauchen",
+  "name_cz": "potápět se"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dce8"
+  },
+  "name_de": "Wir sind geflogen",
+  "name_cz": "letěli jsme"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dce9"
+  },
+  "name_de": "weit",
+  "name_cz": "daleko"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcea"
+  },
+  "name_de": "entweder - oder",
+  "name_cz": "buď - anebo"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dceb"
+  },
+  "name_de": "regelmässig",
+  "name_cz": "pravidelně"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcec"
+  },
+  "name_de": "seitdem",
+  "name_cz": "od té doby"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dced"
+  },
+  "name_de": "damals",
+  "name_cz": "tenkrát"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcee"
+  },
+  "name_de": "von - bis",
+  "name_cz": "od - do"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcef"
+  },
+  "name_de": "Schwiegervater",
+  "name_cz": "tchán"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcf0"
+  },
+  "name_de": "wichtig",
+  "name_cz": "důležitý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcf1"
+  },
+  "name_de": "erneuern",
+  "name_cz": "obnovit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcf2"
+  },
+  "name_de": "laufen",
+  "name_cz": "chodit (jako aktivita), běhat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcf3"
+  },
+  "name_de": "probieren",
+  "name_cz": "zkusit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcf4"
+  },
+  "name_de": "e Leiter",
+  "name_cz": "žebřík"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcf5"
+  },
+  "name_de": "geschickt",
+  "name_cz": "šikovný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcf6"
+  },
+  "name_de": "begeistert",
+  "name_cz": "nadšený"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcf7"
+  },
+  "name_de": "glücklich",
+  "name_cz": "šťastný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcf8"
+  },
+  "name_de": "r Ausflug",
+  "name_cz": "výlet"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcf9"
+  },
+  "name_de": "Wetterbericht / Wettervorhersage",
+  "name_cz": "předpověď počasí"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcfa"
+  },
+  "name_de": "e Stauge",
+  "name_cz": "tyč"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcfb"
+  },
+  "name_de": "binden",
+  "name_cz": "spojit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcfc"
+  },
+  "name_de": "e Verbindung",
+  "name_cz": "spojení"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcfd"
+  },
+  "name_de": "teilweiß",
+  "name_cz": "částěčně"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcfe"
+  },
+  "name_de": "sich freuen auf",
+  "name_cz": "těšit se na"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dcff"
+  },
+  "name_de": "anstrengend",
+  "name_cz": "náročný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd00"
+  },
+  "name_de": "s Feriencamp",
+  "name_cz": "letní tábor"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd01"
+  },
+  "name_de": "verschieden",
+  "name_cz": "různý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd02"
+  },
+  "name_de": "Pech",
+  "name_cz": "smůla"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd03"
+  },
+  "name_de": "günstig",
+  "name_cz": "levný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd04"
+  },
+  "name_de": "weckern",
+  "name_cz": "budit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd05"
+  },
+  "name_de": "Pausenbrot",
+  "name_cz": "svačina"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd06"
+  },
+  "name_de": "Schwimbad",
+  "name_cz": "bazén"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd07"
+  },
+  "name_de": "Schrägstrich",
+  "name_cz": "lomítko"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd08"
+  },
+  "name_de": "besitzen",
+  "name_cz": "vlastnit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd09"
+  },
+  "name_de": "vermieten",
+  "name_cz": "pronajímat ",
+  "note": "(sobě/někomu)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd0a"
+  },
+  "name_de": "möbliert",
+  "name_cz": "vybavený nábytkem"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd0b"
+  },
+  "name_de": "einrichten",
+  "name_cz": "vybavit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd0c"
+  },
+  "name_de": "besuchen",
+  "name_cz": "navštívit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd0d"
+  },
+  "name_de": "Geschäft",
+  "name_cz": "obchod"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd0e"
+  },
+  "name_de": "Kühlschrank",
+  "name_cz": "lednice"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd0f"
+  },
+  "name_de": "niedrich",
+  "name_cz": "nízký"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd10"
+  },
+  "name_de": "hoch",
+  "name_cz": "vysoký"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd11"
+  },
+  "name_de": "Studentenwohnheim",
+  "name_cz": "studentská kolej"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd12"
+  },
+  "name_de": "sorgen",
+  "name_cz": "starat se o"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd13"
+  },
+  "name_de": "Vorteil",
+  "name_cz": "výhoda"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd14"
+  },
+  "name_de": "Nachteil",
+  "name_cz": "nevýhoda"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd15"
+  },
+  "name_de": "vor",
+  "name_cz": "předpověď počasí"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd16"
+  },
+  "name_de": "Dolmetscher",
+  "name_cz": "překladatel"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd17"
+  },
+  "name_de": "Vorstellung",
+  "name_cz": "přednáška"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd18"
+  },
+  "name_de": "müde",
+  "name_cz": "unavený"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd19"
+  },
+  "name_de": "laut",
+  "name_cz": "hlučný/nahlas"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd1a"
+  },
+  "name_de": "Wahl",
+  "name_cz": "volba"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd1b"
+  },
+  "name_de": "Möglichkeit",
+  "name_cz": "možnost"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd1c"
+  },
+  "name_de": "aufräumen",
+  "name_cz": "uklízet"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd1d"
+  },
+  "name_de": "unterwegs",
+  "name_cz": "na cestě/cestou"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd1e"
+  },
+  "name_de": "jeden",
+  "name_cz": "každý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd1f"
+  },
+  "name_de": "Mittagsessen",
+  "name_cz": "oběd"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd20"
+  },
+  "name_de": "im Erdgeschoss",
+  "name_cz": "v přízemí"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd21"
+  },
+  "name_de": "gegeßen",
+  "name_cz": "minulý čas od jíst"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd22"
+  },
+  "name_de": "vorher",
+  "name_cz": "předtím"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd23"
+  },
+  "name_de": "feststellen",
+  "name_cz": "zjistit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd24"
+  },
+  "name_de": "genug warm",
+  "name_cz": "dostatečně teplé"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd25"
+  },
+  "name_de": "überall",
+  "name_cz": "všude"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd26"
+  },
+  "name_de": "wollte",
+  "name_cz": "chtěl jsem"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd27"
+  },
+  "name_de": "möchte",
+  "name_cz": "chci ",
+  "note": "(pouze v přítomném a budoucím čase)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd28"
+  },
+  "name_de": "s Kreuzworträtsel",
+  "name_cz": "křížovka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd29"
+  },
+  "name_de": "s Rätsel",
+  "name_cz": "hádanka/záhada"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd2a"
+  },
+  "name_de": "verkaufen",
+  "name_cz": "prodávat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd2b"
+  },
+  "name_de": "zuhören",
+  "name_cz": "naslouchat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd2c"
+  },
+  "name_de": "aufhören",
+  "name_cz": "přestat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd2d"
+  },
+  "name_de": "gleich",
+  "name_cz": "hned"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd2e"
+  },
+  "name_de": "Es ist total viel los.",
+  "name_cz": "Pořád se něco děje."
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd2f"
+  },
+  "name_de": "deutlich",
+  "name_cz": "jasně, zřetelně"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd30"
+  },
+  "name_de": "verstehen",
+  "name_cz": "rozumnět"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd31"
+  },
+  "name_de": "Beilagen",
+  "name_cz": "přílohy"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd32"
+  },
+  "name_de": "r Feiertag",
+  "name_cz": "svátek"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd33"
+  },
+  "name_de": "Ferien",
+  "name_cz": "prázdniny"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd34"
+  },
+  "name_de": "nich weit / in der Nähe",
+  "name_cz": "nedaleko"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd35"
+  },
+  "name_de": "um die Ecke",
+  "name_cz": "za rohem"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd36"
+  },
+  "name_de": "nur ein Katzensprung",
+  "name_cz": "hned za rohem ",
+  "note": "(opravdu blízko :)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd37"
+  },
+  "name_de": "s Wochenendehaus",
+  "name_cz": "chalupa"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd38"
+  },
+  "name_de": "heizen",
+  "name_cz": "vytápět/topit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd39"
+  },
+  "name_de": "s Holz",
+  "name_cz": "dřevo"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd3a"
+  },
+  "name_de": "Weihnachten",
+  "name_cz": "Vánoce"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd3b"
+  },
+  "name_de": "Herbst",
+  "name_cz": "podzim"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd3c"
+  },
+  "name_de": "Frühling",
+  "name_cz": "jaro"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd3d"
+  },
+  "name_de": "vielleicht",
+  "name_cz": "možná, třeba"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd3e"
+  },
+  "name_de": "Alltag / Werktag",
+  "name_cz": "všední den"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd3f"
+  },
+  "name_de": "Sehenswürdigkeit",
+  "name_cz": "pamětihodnost / památka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd40"
+  },
+  "name_de": "gesetzlich",
+  "name_cz": "uzákoněný, zákonitý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd41"
+  },
+  "name_de": "außerhalb",
+  "name_cz": "mimo"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd42"
+  },
+  "name_de": "Leitung",
+  "name_cz": "telefonní linka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd43"
+  },
+  "name_de": "besetzt",
+  "name_cz": "obsazeno"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd44"
+  },
+  "name_de": "täglich",
+  "name_cz": "denně"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd45"
+  },
+  "name_de": "damals",
+  "name_cz": "tehdy, dříve"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd46"
+  },
+  "name_de": "s Glück",
+  "name_cz": "štěstí"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd47"
+  },
+  "name_de": "glücklich",
+  "name_cz": "šťastný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd48"
+  },
+  "name_de": "Es is lange her.",
+  "name_cz": "Už je to dávno."
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd49"
+  },
+  "name_de": "traurig",
+  "name_cz": "smutný"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd4a"
+  },
+  "name_de": "reich",
+  "name_cz": "bohatý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd4b"
+  },
+  "name_de": "Einlass",
+  "name_cz": "vstup"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd4c"
+  },
+  "name_de": "solche",
+  "name_cz": "takový"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd4d"
+  },
+  "name_de": "sauber",
+  "name_cz": "čistý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd4e"
+  },
+  "name_de": "Insel",
+  "name_cz": "ostrov"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd4f"
+  },
+  "name_de": "Spaziergang",
+  "name_cz": "procházka"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd50"
+  },
+  "name_de": "feiern",
+  "name_cz": "slavit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd51"
+  },
+  "name_de": "verlassen",
+  "name_cz": "opustit"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd52"
+  },
+  "name_de": "sinken",
+  "name_cz": "klesat"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd53"
+  },
+  "name_de": "noch",
+  "name_cz": "ještě"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd54"
+  },
+  "name_de": "gewöhnt",
+  "name_cz": "zvyklý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd55"
+  },
+  "name_de": "Gebirge",
+  "name_cz": "hory"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd56"
+  },
+  "name_de": "s Schiff",
+  "name_cz": "loď"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd57"
+  },
+  "name_de": "fast",
+  "name_cz": "skoro"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd58"
+  },
+  "name_de": "Erwachsene",
+  "name_cz": "dospělý"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd59"
+  },
+  "name_de": "überall",
+  "name_cz": "všude ",
+  "note": "(místně)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd5a"
+  },
+  "name_de": "genug",
+  "name_cz": "dostatečně"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd5b"
+  },
+  "name_de": "los fahren/gehen/...",
+  "name_cz": "vyrazit/vyjet/..."
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd5c"
+  },
+  "name_de": "legen",
+  "name_cz": "ležet"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd5d"
+  },
+  "name_de": "im Alltag",
+  "name_cz": "ve všední den"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd5e"
+  },
+  "name_de": "arbeiten als",
+  "name_cz": "pracovat jako"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd5f"
+  },
+  "name_de": "Kleidung",
+  "name_cz": "oblečení"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd60"
+  },
+  "name_de": "es gibt",
+  "name_cz": "existuje / je / jsou"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd61"
+  },
+  "name_de": "Wo gibt es hier ein Park?",
+  "name_cz": "Kde je tady park?"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd62"
+  },
+  "name_de": "Zähne putzen",
+  "name_cz": "čistit zuby"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd63"
+  },
+  "name_de": "genießen",
+  "name_cz": "užívat si"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd64"
+  },
+  "name_de": "verbringen",
+  "name_cz": "strávit ",
+  "note": "(dovolenou)"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd65"
+  },
+  "name_de": "Das stimmt",
+  "name_cz": "To souhlasí / To je pravda"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd66"
+  },
+  "name_de": "Bestimmt",
+  "name_cz": "určitě, jistě, rozhodně"
+},
+{
+  "_id": {
+    "$oid": "65396b532dbf3378c589dd67"
+  },
+  "name_de": "gemeinsam",
+  "name_cz": "společně"
+}]

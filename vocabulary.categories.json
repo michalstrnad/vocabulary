@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "648ccd99a42a4fa9b8fb8eb8"
+  },
+  "name": "1. category",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ccd99a42a4fa9b8fb8eb9"
+  },
+  "name": "2. category",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ccd99a42a4fa9b8fb8eba"
+  },
+  "name": "3. category",
+  "__v": 0
+}]
